@@ -1,7 +1,7 @@
 import sys
 
 if len(sys.argv) != 3:
-    exit(f"error: invalid arguments\nusage: python3 {sys.argv[0]} contacts.txt contacts.vcf")
+    exit(f"error: invalid arguments\nusage: ./{sys.argv[0]} contacts.txt contacts.vcf")
 
 file = sys.argv[1]
 
